@@ -1,0 +1,1 @@
+When testing files and/or directories, each `group`'s test files and/or directories should be placed in a directory in `test/files` named as the `group`'s name with spaces separated by underscores. For example, a `group` named `'getting links in a directory'` should have its test files and/or directories in `test/files/getting_links_in_a_directory`. 

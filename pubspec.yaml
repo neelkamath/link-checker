@@ -1,0 +1,14 @@
+name: link_checker
+version: 4.0.2
+description: Can find links and check if they're dead in almost any type of file
+author: Neel Kamath <neelkamath@icloud.com>
+homepage: https://github.com/neelkamath/link-checker
+
+dependencies:
+  markdown: ^2.0.2
+
+dev_dependencies:
+  test: ^1.5.3
+
+environment:
+  sdk: '>=2.1.0 <3.0.0'

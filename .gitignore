@@ -1,0 +1,17 @@
+.dart_tool/
+.packages
+build/
+pubspec.lock
+
+doc/api/
+
+*.dart.js
+*.info.json
+*.js
+*.js_
+*.js.deps
+*.js.map
+
+.idea/
+
+.DS_Store

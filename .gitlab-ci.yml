@@ -1,0 +1,12 @@
+image: google/dart:2.1.0
+
+test:
+  script:
+    - pub get
+    - pub run test
+
+format:
+  script: 'if dartfmt -n --fix . | grep .dart; then echo The above files have not been formatted; exit 1; fi'
+
+layout:
+  script: pub publish -n
